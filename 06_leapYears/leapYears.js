@@ -4,6 +4,6 @@ const leapYears = function(year) {
     else if (year % 4 === 0) return true;
     else return false;
 };
-// console.log(leapYears(1900));
+
 // Do not edit below this line
 module.exports = leapYears;
